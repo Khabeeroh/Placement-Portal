@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for IT, SIWES & NYSC Placement | Oyo Town</title>
+    <meta name="description" content="Submit your application for IT, SIWES, or NYSC placement in Oyo Town. Fast and easy process. Apply now.">
+     <meta property="og:title" content="IT, SIWES & NYSC Placement in Oyo Town">
+    <meta property="og:description" content="Find the best placement opportunities for IT, SIWES, and NYSC in Oyo Town.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/apply">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="/src/input.css">
+</head>
+<body class="bg-gray-50">
+   <nav class="font-['inter'] md:flex md:items-center justify-between mb-4 mx-4 lg:mx-10">
+       <div class="flex justify-between items-center sm:mr-14 mt-6">
+         <div class="flex gap-2">
+            <img src="image/DignityLOgo.jpg" alt="" class="w-8 md:w-10">
+            <div>
+                <p class="text-[12px] font-bold text-blue-950 ">Dignity Placement Portal</p>
+                <p class="text-[10px]  text-blue-950 ">Your future, Our Mission</p>
+            </div>
+        </div>
+        <div class="block md:hidden" id="burger">
+            <svg class="w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+       </div>
+       <div class="hidden px-2 md:pl-0 text-sm lg:text-[14px] md:text-[10px] md:flex md:justify-between mt-6 items-center lg:gap-5 md:gap-20"  id="menu">
+         <ul class="md:flex gap-4">
+            <li class="pb-3 md:pb-0 hover:underline hover:text-blue-700" ><a href="index.html">Home</a></li>
+            <li class="pb-3 md:pb-0 hover:underline hover:text-blue-700"><a href="#program">Programs</a></li>
+            <li class="pb-3 md:pb-0 hover:underline hover:text-blue-700"><a href="#require">Requirement</a></li>
+            <li class="pb-3 md:pb-0 hover:underline hover:text-blue-700"><a href="#course">Courses</a></li>
+            <li class="pb-3 md:pb-0 hover:underline hover:text-blue-700"><a href="#contact">Contact</a></li>
+         </ul>
+
+        <button class="bg-blue-700 text-white w-full md:w-32 py-2 px-2 lg:px-4 rounded"><a href="apply.html">Apply Now</a></button>
+       </div>
+    </nav>
+    <div class="border-t border-blue-200 py-1"></div>
+    <!-- form -->
+    <div class="mt-5 shadow-2xl p-4 rounded mx-auto w-[90%] md:w-[40%]">
+        <div class="text-center pb-5">
+            <h1 class="text-[18px]">Apply Now</h1>
+            <p class="text-[12px] md:text-[15px]">Fill out the forn bellow to submit your Application</p>
+        </div>
+        <form action="" class="text-['inter']">
+            <!-- Fullname -->
+            <div class="form-content">
+                <label for="name">Full Name</label>
+                <input class="border w-full p-2 rounded" type="text" placeholder="Enter your full name" required>
+           </div>
+           <!-- email -->
+           <div class="form-content">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Enter your email">
+           </div>
+           <!-- phonenumber -->
+            <div class="form-content">
+                <label for="number">Phone Number</label>
+                <input type="number" placeholder="Enter your phone number" required>
+           </div>
+           <!-- institution -->
+            <div class="form-content">
+                <label for="text">Institution</label>
+                <input type="text" placeholder="Enter your institution" required>
+           </div>
+           <!-- Department-->
+            <div class="form-content">
+                <label for="text">Department</label>
+                <input type="text" placeholder="Enter your Department" required>
+           </div>
+           <!-- Level -->
+            <label for="level">Level</label>
+            <select name="level" id="level" class="mb-3 form-content">
+                <option value="">Select Level</option>
+                <option value="">200</option>
+                <option value="">300</option>
+                <option value="">400</option>
+            </select>
+
+        <!-- Program -->
+          <label for="program">Program</label>
+            <select name="program" id="program" required class="mb-3 form-content">
+                <option value="">Select Program</option>
+                <option value="">IT(Industrail Training)</option>
+                <option value="">SIWES (Student Industrial Work Experience Scheme)</option>
+                <option value="">NYSC (National Youth Service Corps)</option>
+            </select>
+        <!-- Course of interest -->
+          <label for="program">Course of Interest</label>
+                <select name="program" id="program" required class="form-content mb-3">
+                    <option value="">Select Course</option>
+                    <option value="">Web Development</option>
+                    <option value="">Data Analysis</option>
+                    <option value="">Graphic Deisgner</option>
+                    <option value="">Software Devepment</option>
+                    <option value="">CyberSecurity</option>
+                    <option value=""></option>
+                </select>
+            <!-- Starting Date -->
+            <div class="pb-3">
+                <label for="date">Starting Date</label>
+            <input type="date" name="date" id="date" placeholder="Enter the date you will start">
+            </div>
+        <!-- upload -->
+         <label for="file">Upload Document</label>
+            <div class="flex flex-col text-center">
+                <input type="file" name="myfile" id="myfile" class="border-dashed h-24 text-center">
+            </div>
+    
+
+         <input type="submit" value="Submit Application" class="mt-6 bg-blue-700 text-white font-bold">
+    </form>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

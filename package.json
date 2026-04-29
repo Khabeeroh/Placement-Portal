@@ -1,0 +1,16 @@
+{
+  "name": "dignity-placement-portal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  },
+  "description": ""
+}
