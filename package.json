@@ -14,7 +14,3 @@
   },
   "description": ""
 }
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "next build"
-}
